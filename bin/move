@@ -12,8 +12,6 @@ user_input = gets.strip
 
 input_to_index(user_input)
 
-input = input_to_index
-
 move(board, input, "X")
 
 display_board(board)
